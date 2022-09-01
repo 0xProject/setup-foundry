@@ -19,6 +19,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: 0xProject/setup-foundry@master
+      - uses: 0xProject/setup-foundry@main
 
 ```
