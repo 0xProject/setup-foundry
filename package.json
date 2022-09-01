@@ -1,11 +1,11 @@
 {
-  "name": "setup-foundryrs",
+  "name": "setup-foundry",
   "version": "1.0.0",
   "description": "setup foundry",
   "author": "Marcin Wolny",
   "main": "lib/setup-foundry.js",
   "scripts": {
-    "build": "ncc build -o dist/setup src/setup-foundry.ts",
+    "build": "ncc build -o dist/setup-foundry src/setup-foundry.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src && prettier --write **/*.ts"
   },
