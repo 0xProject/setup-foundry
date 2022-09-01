@@ -1,0 +1,10 @@
+name: 'Setup foundry-rs/foundry'
+description: 'Setup foundry-rs/foundry'
+author: 'Marcin Wolny'
+inputs:
+  version:
+    default: latest
+  cache:
+    default: 'false'
+runs:
+  using: 'node16'
